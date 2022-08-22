@@ -20,5 +20,5 @@ end
 puts EmailAddressParser.new("allano@ksadigitali.com,hello@ksadigitali.com").parse
 
 email_address="allano@ksadigitali.com,hello@ksadigitali.com"
-parser=EmailAddressParser.new(email_address)
+parser = EmailAddressParser.new(email_address)
 parser.parse
